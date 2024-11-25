@@ -7,9 +7,11 @@
         public int QntdMovimento { get; protected set; }
         public Tabuleiro Tabuleiro { get; protected set; }
 
+
+        //Contrutor da Peça
         public Peca(Cor cor, Tabuleiro tabuleiro)
         {
-            this.Posicao = null;
+            this.Posicao = null; 
             this.Cor = cor;
             this.QntdMovimento = 0;
             this.Tabuleiro = tabuleiro;

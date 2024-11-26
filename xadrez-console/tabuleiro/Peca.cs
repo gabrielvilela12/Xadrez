@@ -22,5 +22,10 @@
             Tabuleiro = tabuleiro;
             Cor = cor;
         }
+
+        public void incrementarQntdMovimentos()
+        {
+            QntdMovimento++;
+        }
     }
 }

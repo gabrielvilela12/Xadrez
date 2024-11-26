@@ -2,6 +2,6 @@
 {
     enum Cor
     {
-        Branco, Preto
+        Branca, Amarela
     }
 }

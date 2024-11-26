@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\tabuleiro\\peca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|c:\\users\\gabriel\\source\\repos\\projetos\\xadrez-console\\xadrez-console\\xadrez\\partidadexadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\xadrez\\partidadexadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\tela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\xadrez\\posicaoxadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\xadrez\\posicaoxadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|c:\\users\\gabriel\\source\\repos\\projetos\\xadrez-console\\xadrez-console\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D49A77-07A9-43D3-A673-E180358F0839}|xadrez-console\\xadrez-console.csproj|solutionrelative:xadrez-console\\tabuleiro\\cor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,71 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Tela.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\Tela.cs",
               "RelativeDocumentMoniker": "xadrez-console\\Tela.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\Tela.cs",
               "RelativeToolTip": "xadrez-console\\Tela.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAArAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:11:09.074Z",
+              "WhenOpened": "2024-11-26T12:43:43.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PosicaoXadrez.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\xadrez\\PosicaoXadrez.cs",
-              "RelativeDocumentMoniker": "xadrez-console\\xadrez\\PosicaoXadrez.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\xadrez\\PosicaoXadrez.cs",
-              "RelativeToolTip": "xadrez-console\\xadrez\\PosicaoXadrez.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "DocumentIndex": 4,
+              "Title": "Cor.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Cor.cs",
+              "RelativeDocumentMoniker": "xadrez-console\\tabuleiro\\Cor.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Cor.cs",
+              "RelativeToolTip": "xadrez-console\\tabuleiro\\Cor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:58:06.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Peca.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Peca.cs",
-              "RelativeDocumentMoniker": "xadrez-console\\tabuleiro\\Peca.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Peca.cs",
-              "RelativeToolTip": "xadrez-console\\tabuleiro\\Peca.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:05:46.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Posicao.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Posicao.cs",
-              "RelativeDocumentMoniker": "xadrez-console\\tabuleiro\\Posicao.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Posicao.cs",
-              "RelativeToolTip": "xadrez-console\\tabuleiro\\Posicao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:06:58.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tabuleiro.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Tabuleiro.cs",
-              "RelativeDocumentMoniker": "xadrez-console\\tabuleiro\\Tabuleiro.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Tabuleiro.cs",
-              "RelativeToolTip": "xadrez-console\\tabuleiro\\Tabuleiro.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAMwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:09:07.707Z",
+              "WhenOpened": "2024-11-26T12:51:41.893Z",
               "EditorCaption": ""
             },
             {
@@ -109,9 +66,35 @@
               "RelativeDocumentMoniker": "xadrez-console\\Program.cs",
               "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\Program.cs",
               "RelativeToolTip": "xadrez-console\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:04:50.922Z",
+              "WhenOpened": "2024-11-26T12:42:59.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartidaDeXadrez.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\xadrez\\PartidaDeXadrez.cs",
+              "RelativeDocumentMoniker": "xadrez-console\\xadrez\\PartidaDeXadrez.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\xadrez\\PartidaDeXadrez.cs",
+              "RelativeToolTip": "xadrez-console\\xadrez\\PartidaDeXadrez.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:31:45.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tabuleiro.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Tabuleiro.cs",
+              "RelativeDocumentMoniker": "xadrez-console\\tabuleiro\\Tabuleiro.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\source\\repos\\Projetos\\xadrez-console\\xadrez-console\\tabuleiro\\Tabuleiro.cs",
+              "RelativeToolTip": "xadrez-console\\tabuleiro\\Tabuleiro.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:09:07.707Z",
               "EditorCaption": ""
             }
           ]

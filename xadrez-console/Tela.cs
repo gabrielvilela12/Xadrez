@@ -7,11 +7,10 @@ namespace xadrez_console
     {
         public static void ImprimirTabuleiro(Tabuleiro tabuleiro)
         {
-            Console.WriteLine("  " + "0 1 2 3 4 5 6 7 "); //Numeração da casa da coluna
+            
             for (int i = 0;i<tabuleiro.Linha;i++)
             {
-                
-                Console.Write(i + " "); //Numeração da casa da linha
+                Console.Write(8 - i + " ");
                 for (int j = 0; j < tabuleiro.Coluna; j++)
                 {
                     
@@ -22,10 +21,27 @@ namespace xadrez_console
                     }
                     else
                     {
-                        Console.Write(tabuleiro.Peca(i, j) + " "); //Coloca a peça na posição
+                        imprimirPeca(tabuleiro.Peca(i, j));
+                        Console.Write(' ');
                     }
                 }
                 Console.WriteLine();
+            }
+            Console.WriteLine("  a b c d e f g h");
+        }
+
+        public static void imprimirPeca(Peca peca)
+        {
+            if(peca.Cor == Cor.Branco)
+            {
+                Console.Write(peca);
+            }
+            else
+            {
+                ConsoleColor aux = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write(peca);
+                Console.ForegroundColor = aux;
             }
         }
     }

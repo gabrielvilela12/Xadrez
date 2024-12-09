@@ -60,7 +60,7 @@ namespace tabuleiro
         //Verifica se a posição é válida no tamanho do tabuleiro
         public bool PosicaoValida(Posicao pos)
         {
-            if (pos.Linha < 0 || pos.Linha > Linha || pos.Coluna < 0 || pos.Coluna > Coluna)
+            if (pos.Linha < 0 || pos.Linha >= Linha || pos.Coluna < 0 || pos.Coluna >= Coluna)
             {
                 return false;
             }
@@ -69,6 +69,7 @@ namespace tabuleiro
                 return true;
             }
         }
+
 
         //Exceção caso de algum erro
         public void ValidarPosicao(Posicao pos)

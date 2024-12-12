@@ -145,7 +145,7 @@ namespace xadrez
 
         public void validarPosicaoDeDestino(Posicao origem, Posicao destino)
         {
-            if (!Tabuleiro.Peca(origem).podeMoverPara(destino))
+            if (!Tabuleiro.Peca(origem).movimentoPossivel(destino))
             {
                 throw new TabuleiroException("Posição de destino inválida");
             }
@@ -233,12 +233,33 @@ namespace xadrez
 
         private void colocarPecas()
         {
-            colocarNovaPeca('c', 1, new Torre(Tabuleiro, Cor.Branca));
-            colocarNovaPeca('d', 1, new Rei(Tabuleiro, Cor.Branca));
-            colocarNovaPeca('h', 7, new Torre(Tabuleiro, Cor.Branca));
+            // Peças brancas
+            colocarNovaPeca('a', 1, new Torre(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('b', 1, new Cavalo(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('c', 1, new Bispo(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('d', 1, new Rainha(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('e', 1, new Rei(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('f', 1, new Bispo(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('g', 1, new Cavalo(Tabuleiro, Cor.Branca));
+            colocarNovaPeca('h', 1, new Torre(Tabuleiro, Cor.Branca));
+            for (char coluna = 'a'; coluna <= 'h'; coluna++)
+            {
+                colocarNovaPeca(coluna, 2, new Peao(Tabuleiro, Cor.Branca));
+            }
 
-            colocarNovaPeca('a', 8, new Rei(Tabuleiro, Cor.Amarela));
-            colocarNovaPeca('b', 8, new Torre(Tabuleiro, Cor.Amarela));
+            // Peças amarelas
+            colocarNovaPeca('a', 8, new Torre(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('b', 8, new Cavalo(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('c', 8, new Bispo(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('d', 8, new Rainha(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('e', 8, new Rei(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('f', 8, new Bispo(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('g', 8, new Cavalo(Tabuleiro, Cor.Amarela));
+            colocarNovaPeca('h', 8, new Torre(Tabuleiro, Cor.Amarela));
+            for (char coluna = 'a'; coluna <= 'h'; coluna++)
+            {
+                colocarNovaPeca(coluna, 7, new Peao(Tabuleiro, Cor.Amarela));
+            }
         }
 
 

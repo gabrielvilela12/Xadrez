@@ -34,11 +34,14 @@ namespace xadrez
                 }
 
                 // Movimento inicial de dois passos
-                pos.DefinirValores(this.Posicao.Linha - 2, this.Posicao.Coluna);
-                Posicao pos2 = new Posicao(this.Posicao.Linha - 1, this.Posicao.Coluna);
-                if (Tabuleiro.PosicaoValida(pos) && livre(pos) && Tabuleiro.PosicaoValida(pos2) && livre(pos2))
+                if (this.Posicao.Linha == 6) // Linha inicial para peões brancos
                 {
-                    matrix[pos.Linha, pos.Coluna] = true;
+                    pos.DefinirValores(this.Posicao.Linha - 2, this.Posicao.Coluna);
+                    Posicao pos2 = new Posicao(this.Posicao.Linha - 1, this.Posicao.Coluna);
+                    if (Tabuleiro.PosicaoValida(pos) && livre(pos) && Tabuleiro.PosicaoValida(pos2) && livre(pos2))
+                    {
+                        matrix[pos.Linha, pos.Coluna] = true;
+                    }
                 }
 
                 // Captura diagonal esquerda
@@ -65,11 +68,14 @@ namespace xadrez
                 }
 
                 // Movimento inicial de dois passos
-                pos.DefinirValores(this.Posicao.Linha + 2, this.Posicao.Coluna);
-                Posicao pos2 = new Posicao(this.Posicao.Linha + 1, this.Posicao.Coluna);
-                if (Tabuleiro.PosicaoValida(pos) && livre(pos) && Tabuleiro.PosicaoValida(pos2) && livre(pos2))
+                if (this.Posicao.Linha == 1) // Linha inicial para peões pretos
                 {
-                    matrix[pos.Linha, pos.Coluna] = true;
+                    pos.DefinirValores(this.Posicao.Linha + 2, this.Posicao.Coluna);
+                    Posicao pos2 = new Posicao(this.Posicao.Linha + 1, this.Posicao.Coluna);
+                    if (Tabuleiro.PosicaoValida(pos) && livre(pos) && Tabuleiro.PosicaoValida(pos2) && livre(pos2))
+                    {
+                        matrix[pos.Linha, pos.Coluna] = true;
+                    }
                 }
 
                 // Captura diagonal esquerda
@@ -89,6 +95,7 @@ namespace xadrez
 
             return matrix;
         }
+
 
         public override string ToString()
         {
